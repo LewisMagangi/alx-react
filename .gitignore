@@ -1,0 +1,6 @@
+# Ignore these
+node_modules/
+package-lock.json
+dist/                # if you build your output with Webpack
+.DS_Store            # macOS
+.env                 # if using environment variables
