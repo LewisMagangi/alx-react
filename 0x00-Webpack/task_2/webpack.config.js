@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   // Set mode to production for optimizations
@@ -66,6 +67,15 @@ module.exports = {
       }
     ],
   },
+  
+  // Plugins
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'ALX Dashboard - Task 2',
+      filename: 'index.html',
+      inject: 'body'
+    })
+  ],
   
   // Optimization settings
   optimization: {
