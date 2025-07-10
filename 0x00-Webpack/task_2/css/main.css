@@ -1,0 +1,53 @@
+/* Logo styling */
+#logo {
+    width: 200px;
+    height: 200px;
+    background-image: url('../assets/holberton-logo.jpg');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Button and counter styling */
+#start-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#start-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Counter text positioning - to the right of button in bold */
+#count {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    vertical-align: middle;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Paragraph styling */
+p {
+    margin: 10px 0;
+    font-size: 14px;
+}
