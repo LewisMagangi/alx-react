@@ -70,15 +70,5 @@ module.exports = {
   // Optimization settings
   optimization: {
     minimize: true, // Minimize the bundle
-    splitChunks: {
-      chunks: 'all',
-      cacheGroups: {
-        vendor: {
-          test: /[\\/]node_modules[\\/]/,
-          name: 'vendors',
-          chunks: 'all',
-        },
-      },
-    },
   }
 };
